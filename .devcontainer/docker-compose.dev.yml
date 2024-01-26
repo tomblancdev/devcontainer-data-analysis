@@ -9,4 +9,7 @@ services:
       - ..:/workspace:cached # mount the current directory as workspace to the container
     environment: # set environment variables
       POETRY_VIRTUALENVS_IN_PROJECT: True
+      # ___ Data folders ___
+      INCOMMING_DATA_FOLDER: /workspace/data/incomming
+      OUTGOING_DATA_FOLDER: /workspace/data/outgoing
     command: /bin/sh -c "while sleep 1000; do :; done" # * keep the container running

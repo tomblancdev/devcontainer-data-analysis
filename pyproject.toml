@@ -35,7 +35,13 @@ packages = [
 
 
 [tool.poetry.dependencies]
-python = "^3.11" # ! 👈 Change this to your Python version
+python = "^3.11"       # ! 👈 Change this to your Python version
+jupyterlab = "^4.0.11"
+notebook = "^7.0.7"
+voila = "^0.5.5"
+pandas = "^2.2.0"
+numpy = "^1.26.3"
+scipy = "^1.12.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -46,6 +52,7 @@ mypy = "^1.8.0"
 [tool.ruff]
 select = ["ALL"]
 ignore = ["D211", "D213", "COM812", "ISC001"]
+extend-include = ["*.ipynb"]
 fix = true
 
 [tool.pyright]

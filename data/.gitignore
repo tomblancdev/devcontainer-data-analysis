@@ -1,0 +1,2 @@
+# Ignore all files into the data folder to prevent any leak of data
+*/

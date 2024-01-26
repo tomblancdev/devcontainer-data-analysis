@@ -26,7 +26,9 @@
 				"charliermarsh.ruff",
 				"ms-python.mypy-type-checker",
 				"aaron-bond.better-comments",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"ms-toolsai.jupyter",
+				"github.copilot"
 			],
 			"settings": {
 				// ### General ###
@@ -139,7 +141,7 @@
 		"ghcr.io/devcontainers-contrib/features/black:2": {},
 		"ghcr.io/devcontainers-contrib/features/mypy:2": {},
 		"ghcr.io/devcontainers-contrib/features/ruff:1": {},
-		"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {}
+		"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {},
 	},
 	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "root"
